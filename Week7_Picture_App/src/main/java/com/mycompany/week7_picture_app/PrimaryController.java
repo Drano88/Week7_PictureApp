@@ -10,18 +10,18 @@ import javafx.stage.Stage;
 
 public class PrimaryController {
     
-  // public void start( Stage primaryStage){
-     // Image img = new Image("https://media.gcflearnfree.org/content/55e0730c7dd48174331f5164_01_17_2014/whatisacomputer_pc.jpg");
-     // ImageView imgView= new ImageView(img);
+  public void start( Stage primaryStage){
+     Image img = new Image("https://media.gcflearnfree.org/content/55e0730c7dd48174331f5164_01_17_2014/whatisacomputer_pc.jpg");
+    ImageView imgView= new ImageView(img);
       
-     // StackPane pane = new StackPane(imgView);
-    ///  pane.setStyle("-fx-background-color: black");
+     StackPane pane = new StackPane(imgView);
+     pane.setStyle("-fx-background-color: black");
       
-    //  Scene scene =  new Scene(pane, 500, 350);
-    //  primaryStage.setTitle("Picture");
-    //  primaryStage.setScene(scene);
-     // primaryStage.show(); 
-  // };
+     Scene scene =  new Scene(pane, 500, 350);
+     primaryStage.setTitle("Picture");
+      primaryStage.setScene(scene);
+     primaryStage.show(); 
+   };
 
     @FXML
     private void switchToSecondary() throws IOException {
